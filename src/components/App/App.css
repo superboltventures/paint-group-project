@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+html,
+body,
+#react-root {
+  height: 100%;
+
+}
+
+body {
+
+  background-image: url("./cssImages/background_tile.jpg");
+
+  background-repeat: repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  margin: 0px;
+  overflow-x:hidden;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+/* --------------------------------------------------------------------------------
+Container
+-------------------------------------------------------------------------------- */
+
+.container {
+  padding: 20px;
+}
+
+/* --------------------------------------------------------------------------------
+Button
+-------------------------------------------------------------------------------- */
+
+.myButton {
+
+  background-color: rgb(89, 99, 107);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Lexend Deca", sans-serif;
+}
+.myButtonBlue {
+
+  background-color: rgb(94, 191, 221);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* --------------------------------------------------------------------------------
+Alert
+-------------------------------------------------------------------------------- */
+
+.alert {
+  box-sizing: border-box;
+  padding: 15px 10px;
+  margin: 15px 0;
+  border: 2px solid #e01616;
+  background-color: #efefef;
+  border-radius: 3px;
+  color: #e01616;
+  font-size: 0.8rem;
+}
+
+/* --------------------------------------------------------------------------------
+Form Treatment
+-------------------------------------------------------------------------------- */
+
+.formPanel {
+  /* size 20px */
+  font-size: 7px;
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 100%;
+  padding: 25px;
+  margin: 0 auto 20px;
+  background-color: rgb(89, 99, 107);
+  border-radius: 3px;
+  color:white;
+  /* box-shadow: 0 1px 2px rgb(0, 0, 0, 0.4); */
+}
+
+input {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.loginPageContainer {
+  background-image: url("./cssImages/solid-color-image.jpeg");
+
+
+  background-size: cover;
+
+}
+
+h1.totalCostClass{
+    font-size:24px;
+}
+
+input.checkboxClass{
+    width: 30px;
+    height: 30px; 
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+label.checkboxLabel{
+    font-size: 15px;
+
+    display: flex;
+  align-items: center;
+
+  
+}
+
+.checkboxLabelDiv{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap; 
+}
+
+.notesDiv{
+  margin-left: 42px;
+}
+
+textarea{
+margin-left: 5px;
+
+font-family: "Lexend Deca", sans-serif;
+padding:12px;
+}
+
+.radioButtonClass{
+   border: 0px;
+    width: 100%;
+    height: 50px; 
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+
+
+
+.nav-title{
+  margin:auto;
+}
+
+.jobNumberClass{
+  margin-left: 19px;
+  margin-bottom:-40px;
+  margin-top:-20px;
+}
+
+
+
+li{
+
+  font-family: "Lexend Deca", sans-serif;
+  margin:auto;
+}
+
+.jobIntro h3{
+  font-family: "Lexend Deca", sans-serif;
+  margin-left:15px;
+}
+.clientDetails h3{
+  font-family: "Lexend Deca", sans-serif;
+  margin-left:15px;
+}
+
+.scopeofwork h3{
+  font-family: "Lexend Deca", sans-serif;
+  margin-left:15px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.loginClass input{
+width:95%;
+margin-left: 0px;
+}
+
+.loginClass label{
+  margin: auto;
+}
+
+.loginClass button{
+  margin-left: 85px;
+}
+
+#loginButton {
+  margin-left: 0px;
+  width: 100%;
+}
+
+.registerFormClass input{
+width:91%;
+margin-left: -10px;
+}
+
+#registerButton {
+  width: 96%;
+  margin-left: 5px;
+}
+
+form.formPanel{
+
+  width: 100%;
+}
+
+.fakeFormPanel{
+  background-color: rgb(89, 99, 107);
+  height:237px;
+}
+
+.fakeFormPanel label{
+  color:rgb(89, 99, 107)
+}
+
+#logoutID{
+  margin-left: 165px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: rgb(89, 99, 107);
+  color:white;
+  font-family: "Lexend Deca", sans-serif;
+  border: 0px;
+
+
+}
+
+th{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+td{
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14.88px;
+  font-weight: bold;
+  line-height: 30px;
+ 
+  padding-right: 8px;
+  padding-bottom:5px;
+  padding-top: 10px;
+
+
+  
+}
+
+table{
+
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+tr{
+  border-bottom: 1px solid #000;
+}
+
+#imageInput{
+  border:none;
+  
+}
+
+.welcomeClass{
+ margin-left: 60px;
+ margin-top: -15px;
+ margin-bottom: -15px;
+
+}
+
+

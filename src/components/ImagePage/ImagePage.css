@@ -1,0 +1,10 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+
+  /* optimizes grid width for a small screen  */
+  @media screen and (max-width: 640px) {
+    #grid-col { grid-template-columns: 100%; }
+  }
+
+ 

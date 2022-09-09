@@ -1,0 +1,19 @@
+.proposalNav {
+  /* flex box layout */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 30px;
+  background: #fff;
+  overflow: hidden;
+  padding: 30px 30px 15px 30px;
+  /* a little less high */
+  height: 40px;
+}
+
+
+
+ul.proposalNavProjectList, ul.proposalNavInfo, ul.proposalNavProposal, ul.proposalNavWorkOrder, ul.proposalNavLogout {
+    margin-left: -40px;
+    margin-bottom: 30px;
+}

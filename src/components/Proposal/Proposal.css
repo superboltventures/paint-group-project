@@ -1,0 +1,191 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700&display=swap");
+
+img {
+  width: 100em;
+}
+
+hr {
+  width: 15em;
+  float: left;
+}
+
+
+.clientDetails h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.clientDetails p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: regular;
+}
+
+.clientDetails {
+
+  background-color: #fff;
+
+  border: 1px solid #e5e5e5;
+
+  border-radius: 5px;
+
+  padding: 20px;
+
+  margin: -5px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+}
+
+.jobIntro h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.JobIntro p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: regular;
+}
+
+.jobIntro {
+  background-color: #fff;
+
+  border: 1px solid #e5e5e5;
+
+  border-radius: 5px;
+
+  padding: 20px;
+
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+}
+
+.proposalPhotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+
+
+
+  background-color: #fff;
+
+  border: 1px solid #e5e5e5;
+
+  border-radius: 5px;
+
+  padding: 20px;
+
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+}
+
+.proposalPhotos img {
+  width: 44%;
+
+  margin: 10px;
+}
+
+.scopeOfWork h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline;
+}
+
+.scopeOfWork p {
+  display: inline;
+  line-height: 1.5;
+}
+
+.scopeOfWork {
+
+  background-color: #fff;
+
+  border: 1px solid #e5e5e5;
+
+  border-radius: 5px;
+
+  padding: 20px;
+
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+}
+
+.specialFeatures h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.specialFeatures p {
+  display: inline;
+  line-height: 1.5;
+}
+
+
+
+
+
+.specialFeatures {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+}
+
+.estimate h3 {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.estimate p {
+  display: inline;
+   line-height: 1.5;
+}
+
+.estimate {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 10px;
+}
