@@ -7,9 +7,7 @@ import {
   useDispatch,
   useSelector,
 } from "react-redux";
-// import LanguageToggleButton from '../LanguageToggleButton/LanguageToggleButton';
 import "./Proposal.css";
-// import useparams
 import { useParams } from "react-router-dom";
 
 // CUSTOM COMPONENTS
@@ -145,8 +143,7 @@ function Proposal(props) {
                       />
                     )
                   )}
-                  {/* <br></br>
-                  <br></br> */}
+                  
                 </div>
               </section>
               <section id="scopeOfWork">
@@ -168,7 +165,7 @@ function Proposal(props) {
                     {proposal.isexteriorprep_scrape ===
                     true
                       ? "YES"
-                      : "No"}
+                      : "NO"}
                   </p>
                   <br />
 
@@ -260,7 +257,7 @@ function Proposal(props) {
                   </p>
                   <br />
 
-                  <p>EXTENSIVE SCRAPING? </p>
+                  <p>EXTENSIVE SCRAPING: </p>
                   <p>
                     {proposal.isspecialfeaturestatus_extensivescraping ===
                     true
