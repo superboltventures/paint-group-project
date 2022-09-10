@@ -7,7 +7,10 @@ const router = express.Router();
  */
 router.get("/", (req, res) => {
   console.log("in fullform get router");
-  const queryString = `SELECT paintproject_input.id,client_type_name,client_firstlast_name, decision_firstlast_name, decision_emailaddress, decision_phonenumber,project_address_1,project_address_2, project_address_city, project_address_state, project_address_zip, project_house_year, project_address_notes, project_propertytype_id,  project_buildingtype_id, isproject_typeinterior, isproject_typecabinetry, isproject_typespecialfeature, project_startdate,  project_complete_specificdate, specialfeatureexterior_type_id,
+  const queryString = `SELECT paintproject_input.id,client_type_name,client_firstlast_name, decision_firstlast_name, 
+  decision_emailaddress, decision_phonenumber,project_address_1,project_address_2, project_address_city, project_address_state, 
+  project_address_zip, project_house_year, project_address_notes, project_propertytype_id,  project_buildingtype_id, isproject_typeinterior, 
+  isproject_typecabinetry, isproject_typespecialfeature, project_startdate,  project_complete_specificdate, specialfeatureexterior_type_id,
   specialfeature_paintproduct,
   isspecialfeaturestatus_needprimer,
   isspecialfeaturestatus_patchedrepair,
@@ -43,7 +46,11 @@ router.get("/", (req, res) => {
  */ // POST route code here
 router.post("/", (req, res) => {
   console.log("in fullform post router");
-  const queryString = `INSERT INTO "paintproject_input"( client_type_name,client_firstlast_name, decision_firstlast_name, decision_emailaddress, decision_phonenumber,project_address_1,project_address_2, project_address_city, project_address_state, project_address_zip, project_house_year, project_address_notes, project_propertytype_id, project_buildingtype_id, isproject_typeinterior, isproject_typecabinetry, isproject_typespecialfeature, project_startdate,  project_complete_specificdate, specialfeatureexterior_type_id,
+  const queryString = `INSERT INTO "paintproject_input"( client_type_name,client_firstlast_name, decision_firstlast_name, 
+  decision_emailaddress, decision_phonenumber,project_address_1,project_address_2, 
+  project_address_city, project_address_state, project_address_zip, project_house_year, project_address_notes, 
+  project_propertytype_id, project_buildingtype_id, isproject_typeinterior, isproject_typecabinetry, isproject_typespecialfeature, 
+  project_startdate,  project_complete_specificdate, specialfeatureexterior_type_id,
   specialfeature_paintproduct,
   isspecialfeaturestatus_needprimer,
   isspecialfeaturestatus_patchedrepair,
@@ -59,7 +66,8 @@ router.post("/", (req, res) => {
   isexteriorprep_mildew,
   isexteriorwarranty_oneyear,
   isexteriorwarranty_threeyear,
-  isexteriorwarranty_fiveyear ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32 $33, $34, $35, $36 )`;
+  isexteriorwarranty_fiveyear ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, 
+  $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28, $29, $30, $31, $32 $33, $34, $35, $36 )`;
   const values = [
     req.body.fullForm.client.client_type_id, //1
     req.body.fullForm.client
@@ -122,8 +130,8 @@ router.post("/", (req, res) => {
       .isexteriorwarranty_threeyear, //34
     req.body.projectScope
       .isexteriorwarranty_fiveyear, //35
-    req.body.user_id,
-  ]; //36
+    req.body.user_id,   //36
+  ];
   pool
     .query(queryString, values)
     .then((results) => {
