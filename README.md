@@ -10,13 +10,14 @@ This app is best viewed on a mobile device.
 
 ## Screen Cap
 
-![ScreenCap!](screenshot1.png "cap1")
 
-![ScreenCap2!](screenshot2.png "cap2")
+##![ScreenCap!](screenshot1.png "cap1")
 
-![Screencap3!](screenshot3.png "cap3")
+##![ScreenCap2!](screenshot2.png "cap2")
 
-![Screencap4!](screenshot4.png "cap4")
+##![Screencap3!](screenshot3.png "cap3")
+
+##![Screencap4!](screenshot4.png "cap4")
 
 ## Built With
 
