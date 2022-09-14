@@ -11,13 +11,9 @@ This app is best viewed on a mobile device.
 ## Screen Cap
 
 
-##![ScreenCap!](documentation/images/screenshot1.png "cap1")
+![ScreenCap!](documentation/images/screenshot1.png "cap1") ![ScreenCap2!](documentation/images/screenshot2.png "cap2")
 
-##![ScreenCap2!](documentation/images/screenshot2.png "cap2")
-
-##![Screencap3!](documentation/images/screenshot3.png "cap3")
-
-##![Screencap4!](documentation/images/screenshot5.png "cap4")
+![Screencap3!](documentation/images/screenshot3.png "cap3") ![Screencap4!](documentation/images/screenshot5.png "cap4")
 
 ## Built With
 
